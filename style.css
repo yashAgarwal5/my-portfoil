@@ -1,0 +1,45 @@
+h1 {
+    color: rgb(165, 42, 42);
+}
+
+/** {
+    border: solid;
+}*/
+
+.header{
+    background-color: rgb(95, 134, 160);
+    text-align: center;
+
+}
+
+.feather{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.item{
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity:0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.33;
+} 
+
